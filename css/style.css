@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Alegreya', serif;
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}
+.home-nav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.home-nav .logo {
+    width: 40%;
+    float: left;
+}
+.home-nav .logo img {
+    width: 40%;
+}
+.home-nav .nav-bar{
+    float: right;
+}
+.nav-bar li{
+    display: inline-block;
+    padding:10px 20px;
+    color: white;
+}
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.home-content{
+    text-align: center;
+    margin-top: 170px;
+    color: #fff;
+}
+.home-content h1{
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 10px;
+}
+.home-content p{
+    font-size: 20px;
+    margin: 3px 0px;
+}
+.home-content button{
+    margin: 10px;
+    padding: 15px 28px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.home-content .btn1{
+    background-color: tan;
+    border: 2px solid transparent;   
+}
+.home-content .btn2{
+    background-color: transparent;
+    border: 3px solid ;
+}
+
+.About{
+    padding: 90px  0px 60px 0px ;
+}
+.item{
+    float: left;
+    width: 50%;
+}
+.item img{
+    width: 100%;
+}
+.item h2{
+    color: #303030;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 32px;
+}
+.item p{
+    color: #303030;
+    padding-left: 50px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.item ul{
+    color: #303030;
+    padding-left: 70px;
+}
+.item ul li{
+    padding-top: 15px ;
+}
+.Location{
+    padding: 90px  0px 60px 0px ;
+}
+.location-color{
+    background-color: #f8f8f8;
+}
+.itemLocation{
+    float: right;
+    width: 50%;
+    padding: 90px 0px;
+    
+}
+.itemLocation img{
+    width: 100%;
+}
+.itemLocation iframe{
+    width: 100%;
+}
+.itemLocation h2 {
+    color: #303030;
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 100px;
+
+}
+
+.itemLocation p {
+    color: #303030;
+    padding-right: 50px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.bacing-content{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bacing-content h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.bacing-content p{
+    font-size: 17px;
+    color: #888888;
+}
+.bacing-item{
+    width: 33%;
+    float: left;
+    padding:0px 30px;
+}
+.bacing-item img{
+    width: 100%;
+}
+
+.itemLocation iframe{
+    width: 100%;
+}
+.background-info{
+    background-color: #403d38;
+}
+.info-item{
+    width: 25%;
+    float: left;
+    padding: 90px 0px;
+}
+.info-item h4{
+    color: #fff;
+}
+.info-item p{
+    color: #969696;
+}
+.info-item ul{
+    color: #969696;
+}
+.info-item ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.footer-background{
+    background-color: #353330;
+}
+.footer-content{
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+}
+.footer-content p{
+    color: #777777;
+}
